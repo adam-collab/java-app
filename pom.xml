@@ -176,11 +176,13 @@
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
         </dependency>
+	    <!--
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time-hibernate</artifactId>
             <version>${jodatime-hibernate.version}</version>
         </dependency>
+-->
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time-jsptags</artifactId>
@@ -201,7 +203,7 @@
             <version>${mysql-driver.version}</version>
         </dependency-->
 
-        <!-- HIBERNATE -->
+        <!-- HIBERNATE 
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-entitymanager</artifactId>
@@ -224,7 +226,7 @@
                     <artifactId>commons-logging</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>
+        </dependency> -->
 
         <!-- Test Artifacts -->
         <dependency>
